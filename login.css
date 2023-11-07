@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+    align-items: center;
+    justify-content: center; 
+    background: white;
+    background-size: cover;
+    display: flex;
+    font-family: sans-serif;
+}
+.register{
+    position: relative; 
+    margin-top: 80px;
+    background-color: rgb(162, 158, 158); 
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+} 
+.label{
+    padding: 20px 130px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #09080f;
+}
+/* .remember-forgot label input {
+    accent-color: #fff;
+    margin: 5px;
+} */
+
+/* .remember-forgot a {
+    color: lch(lightness chroma hue);
+    text-decoration: none;
+} */
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.login_form{
+    padding: 20px 40px;
+    max-width: 400px;
+    flex-direction: column;
+}
+.google-button {
+    background-color: blue; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+  }
+  
+.font{
+    font-size: 18px;
+}
+.login_form .font{
+    font-size: 18px;
+    color: black;
+    margin: 5px 0;
+}
+.login_form container{
+    height: 30px;
+    width: 250px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+.login_form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(67, 10, 237);
+    border-radius: 3px;
+    border: 1px solid #3949AB;
+    transition: 5s;
+}
+.login_form button:hover{
+    background: blue;
+}
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 10px;
+    width: 200px;
+    font-size: 10px;
+    color: #C62828;
+    background: rgba(215, 209, 209, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}

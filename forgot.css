@@ -1,0 +1,68 @@
+body{
+    background-color:white;
+     background-size: cover;
+     font-family:'Arial, Helvetica, sans-serif';
+     font-style: normal;
+     
+     
+ }
+ .card{
+     max-width: 200px;
+     padding: 50px;
+     margin: 0 auto;
+     background-color: rgb(154, 157, 161);
+     box-shadow:  0 0  10px 10px rgb(60, 61, 63);
+     border-radius: 10px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .input-group input {
+     width: 90%;
+     height: 12px;
+     padding: 8px;
+     border-radius: 6px;
+     border: 2px solid ;
+     outline: none;
+  
+ }
+ h2{
+      padding-top: 100px;
+      text-align: center;
+      /* margin-left: 320px; */
+ }
+
+ button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    color: azure;
+    border: none;
+    background-color: blue;
+   
+ }
+ .input-group .error{
+    color: red;
+    margin-top: 5px;
+    font-size: 15px;
+   
+ }
+
+ .input-group.success input{
+    border-color: green;
+    
+ }
+ /* .input-group.success input:focus{
+   box-shadow:  0 0 0px 1px green; 
+
+ } */
+
+ .input-group.error input{
+    border-color: red;
+    
+ }
+ /* .input-group.error input:focus{
+   box-shadow:  0 0 0px 1px red; 
+
+ } */
